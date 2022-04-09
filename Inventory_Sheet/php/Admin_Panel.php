@@ -621,7 +621,7 @@ if (isset($_POST['r_submit'])) {
                 </div>
                 <div class="card-img-overlay card-text d-flex align-items-end justify-content-center text-center"><button type="button" class="btn btn-outline-info btn-sm mt-5" data-bs-toggle="modal" data-bs-target="#U_insertModal" id="change_pass">ADD-User</button>
                     <a href="/reddrop/inventory_sheet/php/C_Users_table.php"><button type="button" class="btn btn-outline-info btn-sm mx-2">View</button></a>
-                    <a href="/reddrop/inventory_sheet/php/API.php" target="_blank"><button type="button" class="btn btn-outline-info btn-sm">API</button></a>
+                    <!-- <a href="/reddrop/inventory_sheet/php/API.php" target="_blank"><button type="button" class="btn btn-outline-info btn-sm">API</button></a> -->
                 </div>
             </div>
             <div class="card bg-dark text-white mx-2 my-2 hove" style="width: 18rem;">
