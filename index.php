@@ -58,7 +58,7 @@ if (isset($_POST['r_submit'])) {
     $R_ISSUE = $_POST['r_issue'];
     $User_FIRST_INSERT = "INSERT INTO ISSUES (`NAME`,`CONTACT`,`CNIC`,`ISSUE`) VALUES('$R_NAME','$R_CONTACT','$R_CNIC','$R_ISSUE')";
     $err = mysqli_query($Connect_DB, $User_FIRST_INSERT);
-    if ($err) {
+    if (isset($err) && $err) {
       $check = 1;
     } else {
       $check1 = 1;
